@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://p4.wallpaperbetter.com/wallpaper/790/301/195/photography-music-drums-wallpaper-preview.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: auto;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.correcto{
+    background: #fff;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    text-align: center;
+    padding: 3%;
+}
+button
+{
+    padding: 2%;
+    margin: 5%;
+    margin-bottom: 0%;
+    color: #fff;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    border: none;
+    border-radius: 10px;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+button a:hover
+{
+    color: #979595;
+    transition: 0.5s;
+}

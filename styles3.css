@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1634476229749-a2e480a919d0?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZpZGVvJTIwZWRpdGluZ3xlbnwwfHwwfHx8MA%3D%3D);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: auto;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+form
+{
+    background: #fff;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    text-align: center;
+    padding: 3%;
+}
+.conteiner
+{
+    display: flex;
+    margin: 5%;
+}
+.minconteiner
+{
+    width: 50%;
+}
+form input{
+    background: none;
+    color: #ffffff98;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    resize: none;
+    margin-top: 3%;
+    width: 85%;
+}
+form input:focus
+{
+    outline: none;
+    color: #ffffff98;
+}
+button
+{
+    padding: 2%;
+    color: #fff;
+    background:transparent;
+    border: solid 1px #fff;
+    border-radius: 10px;
+}
+
+button a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover
+{
+    background: #367391;
+    transition: 0.5s;
+}
