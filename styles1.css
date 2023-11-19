@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://img3.wallspic.com/crops/5/6/3/4/3/134365/134365-diapasn-3840x2160.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: auto;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background: #fff;
+    width: 30%;
+    height: 35%;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+}
+form h2
+{
+    margin-bottom: 5%;
+}
+form input{
+    background: none;
+    color: #ffffff98;
+    border: none;
+    resize: none;
+}
+form input:focus
+{
+    outline: none;
+    color: #ffffff98;
+}
+button{
+    padding: 2%;
+    background-color: #fff;
+    background: transparent;
+    border: solid 1.8px #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+button:hover
+{
+    transition: 0.5s;
+    padding: 3%;
+}
+
+/*error_sesion*/
+.error-conteiner
+{
+    background: #fff;
+    width: 30%;
+    height: 35%;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+}
+.error-conteiner h1 
+{
+    padding: 5%;
+}
+.error-conteiner p
+{
+    padding: 4%;
+}
+.error-conteiner a
+{
+    text-decoration: none;
+    color: #fff;
+}
